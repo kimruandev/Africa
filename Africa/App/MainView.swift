@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct MainView: View {
+    // MARK: - PROPERTIES
+    
+    // MARK: - BODY
+    
     var body: some View {
         TabView {
             ContentView()
@@ -36,6 +40,8 @@ struct MainView: View {
         } //: TAB
     }
 }
+
+// MARK: - PREVIEW
 
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {
